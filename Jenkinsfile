@@ -7,7 +7,6 @@ pipeline {
                 checkout scm
             }
         }
-
         stage('Build') {
             steps {
                 echo 'Building the project...'
