@@ -12,14 +12,14 @@ pipeline {
             steps {
                 echo 'Building the project...'
                 // Example for Node.js
-                sh 'npm install'
+                bat 'npm install'
             }
         }
         stage('Test') {
             steps {
                 echo 'Running tests...'
                 // Example for Node.js
-                sh 'npm test'
+                bat 'npm test'
             }
         }
     }
